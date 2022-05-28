@@ -1,0 +1,47 @@
+body
+{
+  background-color: aqua;
+}
+h1 {
+  color: rgb(0, 255, 0);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00c8ff;
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #00c8ff;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color:aliceblue(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  
+  }
+  li a:hover:not(.active) {
+    background-color: #00c8ff;
+  }
+  
+  .active {
+    background-color: #00c8ff;
+  }
+
+  
+
+ 
+
+
+
